@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Read(//tmp/**)",
+      "Bash(xargs -I{} sh -c 'echo \"$\\(wc -c < {}\\) {}\"')",
+      "Bash(grep -v \"\\\\.kt$\")",
+      "Bash(xargs '-I{}' python3 -c ' *)"
+    ]
+  }
+}

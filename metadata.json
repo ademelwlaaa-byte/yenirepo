@@ -1,0 +1,8 @@
+{
+  "name": "Remix Aiden AI v6",
+  "description": "AI karakterler ve kurgusal evrenler ile gelismis roleplay sohbet botu",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
